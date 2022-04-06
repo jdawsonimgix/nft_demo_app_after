@@ -163,13 +163,13 @@ const Index = () => {
     <Main
       meta={
         <Meta
-          title="Imgix NFT demo app - Before optimization"
+          title="Imgix NFT demo app - After optimization"
           description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
         />
       }
     >
       <h1 className="text-2xl font-bold">
-        JPEG images from OpenSea user Gh0stly Gh0sts.
+        JPEG images turned into AVIF images from OpenSea user Gh0stly Gh0sts.
       </h1>
 
       <ul
@@ -182,7 +182,7 @@ const Index = () => {
               <Imgix
                 src={file.source}
                 imgixParams={{ auto: 'format,compress' }}
-                sizes="(min-width: 36em) 33.3vw, 100vw"
+                sizes="(min-width: 200px) 200px, 100vw"
               />
               {/* <img
                 src={file.source}
