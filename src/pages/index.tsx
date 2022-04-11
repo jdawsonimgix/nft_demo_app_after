@@ -183,7 +183,6 @@ const Index = () => {
                 src={file.source}
                 imgixParams={{ auto: 'format,compress' }}
                 sizes="(min-width: 1280px) 168px, (min-width: 1024px) 174px, (min-width: 776px) 240px, (min-width: 640px) 30vw, 45vw"
-                alt={file.title}
                 className="pointer-events-none object-cover group-hover:opacity-75"
               />
               {/* <img
