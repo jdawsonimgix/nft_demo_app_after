@@ -199,9 +199,9 @@ const Index = () => {
             <p className="pointer-events-none mt-2 block truncate text-sm font-medium text-gray-900">
               {file.title}
             </p>
-            <p className="pointer-events-none block text-sm font-medium text-gray-500">
+            {/* <p className="pointer-events-none block text-sm font-medium text-gray-500">
               {file.size}
-            </p>
+            </p> */}
           </li>
         ))}
       </ul>
