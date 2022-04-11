@@ -6,7 +6,7 @@ const ExampleFiles = [
     title: 'Ghost 1',
     size: '3.9 MB',
     source:
-      'https://lh3.googleusercontent.com/kkedlRh3_fbsJLiFxCwbJrLx4KIhABWeCElt1vW1XojTJfxkO5ezpuXMKZGy7prljcxV1NdkPcv-sYx5feZCNXgppf9eHHmKXEQJ=s0',
+      'https://lh3.googleusercontent.com/ZoQuQrJPeXEFFCJUSLgo9rfXZ-pTHbrWxgl7Eis2ftABEMuvRFyBESj7P12EW7Gv4Ex8s0wtHRk8OWgyyQzd36YfJlyKyu7XNniLQA=s0',
   },
   {
     title: 'Ghost 2',
